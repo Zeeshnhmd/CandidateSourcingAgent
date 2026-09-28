@@ -1,0 +1,5 @@
+package-lock.json
+dist/
+coverage/
+mock/db.json
+apps/api/data/
