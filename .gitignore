@@ -1,0 +1,12 @@
+node_modules
+dist
+coverage
+# Local secrets. Only the example files are committed.
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Saved searches written by the API
+apps/api/data
