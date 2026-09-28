@@ -2,6 +2,8 @@
 
 Turns a job description into a ranked, explainable candidate shortlist, sourced from a talent network and live GitHub data through replaceable discovery, enrichment and evidence adapters.
 
+![How the Candidate Sourcing Agent works: the recruiter flow, the sourcing pipeline and the providers behind it](docs/images/flow-diagram.png)
+
 ```text
 Sign In -> Job Description -> Candidate Persona -> Source Planning -> Discovery (Talent Network + GitHub)
   -> Identity Resolution -> Enrichment -> GitHub Evidence -> Match Score -> Ranked Shortlist -> Candidate Detail
@@ -218,6 +220,7 @@ apps/
     theme/           design tokens and Ant Design configuration
 packages/contracts/  shared TypeScript contracts
 mock/db.json         talent network sample data
+docs/images/         flow diagram used in this README
 ```
 
 ## API
